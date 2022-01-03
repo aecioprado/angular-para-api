@@ -1,7 +1,9 @@
 // modulo de rota da aplicacao
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component'
+
+//importacao do componente home
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
     {path : 'home', component: HomeComponent}
